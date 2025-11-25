@@ -25,3 +25,4 @@ async function handleFetchClick(){
     currentWindSpeed.textContent = currentWeather.windspeed;
     
 }
+

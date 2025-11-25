@@ -23,7 +23,7 @@ body {
 
     font-family: 'Times New Roman', Times, serif;
 
-    background-color: rgba(241, 243, 247, 0.7);
+    background-color: rgba(32, 28, 28, 0.1);
     border-radius: 20px;
 
     padding: 5px;
@@ -33,7 +33,7 @@ body {
 
 .weather-container h1 {
     text-align: center;
-    color: rgb(22, 4, 44);
+    color: rgb(178, 194, 223);
 }
 
 .input-group {
@@ -46,8 +46,8 @@ body {
 }
 
 .input-group label{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(178, 194, 223);
 }
 .btn-primary {
     background-color: #7287b6; 
@@ -59,8 +59,20 @@ body {
     border-radius: 8px;
     cursor: pointer;
     font-size: 15px;
+    transition: background-color 0.2s ease;
 }
+
+.btn-primary:hover {
+    background-color: #1d374e; 
+}
+
 
 .result-box {
     padding-left: 30px;
+}
+
+.result-box p {
+    color: #fffffff3;
+    font-size: 20px;
+    font-weight: bold;
 }
